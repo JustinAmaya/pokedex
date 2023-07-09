@@ -63,6 +63,7 @@ export default function ListaPokes() {
                 height = {pokemon.height}
                 weight = {pokemon.weight}
                 stats = {pokemon.stats[0].base_stat}
+                type = {pokemon.types[0].type.name}
                 />
                   
                   

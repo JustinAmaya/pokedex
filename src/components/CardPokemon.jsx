@@ -2,7 +2,7 @@ import React from 'react'
 
 //asignando las variables que se pusieron en ListaPokes
 export default function CardPokemon({
-  id,name,specie,image,height,weight,stats
+  id,name,specie,image,height,weight,stats,type
 }) {
   return (
     <div>
@@ -29,6 +29,11 @@ export default function CardPokemon({
         <tr>
           <td className='title'>Stats</td>
           <td>{stats}</td>
+        </tr>
+
+        <tr>
+          <td className='title'>Type</td>
+          <td>{type}</td>
         </tr>
       </table>
     </div>
